@@ -1,1 +1,1 @@
-Experimenting with Pixate
+Experimenting with Pixate a gem that allows CSS styling within RubyMotion apps.
