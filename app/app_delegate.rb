@@ -7,7 +7,12 @@ class AppDelegate
     @button.setTitle('Hey Geekfest!', forState:UIControlStateNormal)
     @button.frame = [[70,50],[190,40]]
 
+    @button2 = UIButton.buttonWithType(UIButtonTypeRoundedRect)
+    @button2.setTitle('Another Button', forState:UIControlStateNormal)
+    @button2.frame = [[70,50],[190,40]]
+
     @window.addSubview(@button)
+    @window.addSubview(@button2)
     @window.makeKeyAndVisible
 
     true
